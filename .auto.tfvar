@@ -1,0 +1,14 @@
+server_id = "1254026629316083755",
+server_layout = {
+  categories = [
+    test_category {
+     text_channels = [
+        "text_test_channel"
+     ]
+      voice_channels = [
+        "voice_test_channel"
+     ]
+    }
+  ]
+}
+
