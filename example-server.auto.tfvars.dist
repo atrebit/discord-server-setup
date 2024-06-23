@@ -1,0 +1,33 @@
+server_id = "" # your discord server's ID
+server_layout = {
+  testcat1 = {
+    position = 0
+    text_channels = {
+      tchan1 = {
+        position = 0
+        topic = "nsfw channel"
+        nsfw = true
+      },
+      tchan2 = {
+        position = 1
+        topic = "sfw cats"
+        nsfw = false
+      }
+    }
+  },
+  testcat2 = {
+    position       = 1
+    text_channels = {
+      tchan1 = {
+        position = 0
+        topic = "nsfw channel"
+        nsfw = true
+      },
+      tchan2 = {
+        position = 1
+        topic = "sfw cats"
+        nsfw = false
+      }
+    }
+  }
+}
