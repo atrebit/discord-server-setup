@@ -19,7 +19,14 @@ variable server_layout {
           nsfw = bool
         })
       )
-#       voice_channels = list(string)
+      voice_channels = map(
+        object({
+          position = number
+          bitrate = number
+          userlimit = number
+          sync_parent_category_permitions = bool
+        })
+      )
     })
   )
   description = "discord server layout to be created"

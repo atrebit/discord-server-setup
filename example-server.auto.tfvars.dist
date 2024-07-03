@@ -12,6 +12,19 @@ server_layout = {
         position = 1
         topic = "sfw cats"
         nsfw = false
+      },
+      tchan3 = {
+        position = 2
+        topic = "sfw cats"
+        nsfw = false
+      }
+    }
+    voice_channels = {
+      vchan1 = {
+        position = 0
+        bitrate = 96000
+        userlimit = 5
+        sync_parent_category_permitions = true
       }
     }
   },
@@ -27,6 +40,14 @@ server_layout = {
         position = 1
         topic = "sfw cats"
         nsfw = false
+      }
+    }
+    voice_channels = {
+      vchan1 = {
+        position = 0
+        bitrate = 96000
+        userlimit = 5
+        sync_parent_category_permitions = false
       }
     }
   }
